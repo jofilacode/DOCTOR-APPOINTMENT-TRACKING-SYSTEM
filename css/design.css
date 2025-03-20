@@ -1,0 +1,377 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+
+.loginbox {
+
+    
+}
+
+.changepass {
+
+    display:none;
+}
+
+.infobox {
+
+    padding:12px;
+    border:1px solid #000;
+    border-radius:20px;
+    margin:10px;
+
+}
+.ptopic, .puser {
+
+    font-weight:bold;
+    margin-left:10px;
+}
+
+.ptopic span,.puser span {
+
+    font-weight:bold;
+    float:right;
+    margin-right:10px;
+    color:maroon;
+}
+
+
+
+
+.welcome {
+    background-color:#fff;
+    color: #d35400;
+    padding:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.profimg {
+
+    border-radius:100%;
+    height:100px;
+    width:100px;
+    background-color: #d4e6f1;
+}
+.box1 {
+
+    height:300px;
+    width:40%;
+    padding:10px;
+    margin:5px;
+    float:left;
+}
+
+    .box1 img {
+
+        height:100%;
+        width:100%;
+    }
+
+.box2 {
+    height:300px;
+    width:50%;
+    padding:10px;
+    margin:5px;
+    float:left;
+}
+
+#header h1 {
+
+   margin:0;
+   padding:0;
+   font-size:18px;
+}
+#header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+#footer
+{
+   background-color:#3498db;
+   color:#fff;
+   text-align:center;
+   padding:10px;
+   margin:0;
+   position:fixed;
+   width:99%;
+   bottom:0;
+}
+
+.capture {
+
+    height:100px;
+    width:100px;
+    background-color:#000;
+    margin-left:13px;
+}
+    .capture img {
+
+        height:100px;
+        width:100px;
+    }
+
+.msg {
+
+    display:none;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+    margin:5px;
+    
+}
+
+
+.msg2 {
+
+    display:none;
+    padding:10px;
+    border-radius:10px;
+    text-align:center;
+    margin:5px;
+    
+}
+
+.clear {
+
+    clear:both;
+    height:50px;
+}
+
+#nav ul {
+
+    margin:0;
+    padding:0;
+}
+
+    #nav ul li {
+
+       display:inline-block;
+    }
+#nav ul li a {
+    width:150px;
+    display:block;
+    padding:10px;
+    color:#000;
+    text-align:center;
+    text-decoration:none;
+}
+    #nav ul li a:hover {
+        background-color: #fff;
+        color:#273746;
+        transition:all 0.5s;
+    }
+#nav {
+
+    background-color: #a3e4d7;
+    color:#fff;
+     transition:all 0.5s;
+}
+#banner {
+
+}
+    #banner img {
+        width:100%;
+        height:500px;
+    }
+
+#content{
+
+    width:100%;
+}
+
+    #content .details {
+
+        padding:20px;
+        text-align:justify;
+        line-height:37px;
+    }
+
+.conbox{
+
+    width:700px;
+    height:auto;
+    margin:auto;
+    text-align:center;
+    margin-top:40px;
+
+}
+
+    .conbox p {
+        text-align:justify;
+        line-height:35px;
+    }
+
+.form {
+
+    width:50%;
+    margin:auto;
+    height:auto;
+    padding:15px;
+}
+    .form h3 {
+
+        text-align:center;
+    }
+
+       .form .txtbox {
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+
+
+   .form .txtbox2 {
+    width:93%;
+    padding:10px;
+    margin:10px;
+}
+
+.btn {
+
+    width:93%;
+    padding:10px;
+    margin:10px;
+   background-color: #196f3d;
+    color:#fff;
+    border:0;
+    opacity:0.9;
+    cursor:pointer;
+
+}
+
+.btn:hover {
+
+   opacity:0.5;
+}
+
+.search {
+
+    float:left;
+    padding:10px;
+    margin-left:10px;
+}
+
+.searchbtn {
+    float:left;
+    width:130px;
+    padding:10px;
+    border:0;
+    margin:2px;
+    background-color:#1cb51f;
+    cursor:pointer;
+}
+
+.deletebtn {
+     float:left;
+    width:130px;
+    padding:10px;
+     border:0;
+      margin:2px;
+      background-color:#c42525;
+      color:#fff;
+      cursor:pointer;
+}
+
+.updatebtn {
+     float:left;
+    width:130px;
+    padding:10px;
+     border:0;
+      margin:2px;
+      background-color:#2e86c1;
+      color:#fff;
+      cursor:pointer;
+}
+
+.print {
+
+    border:1px solid #000;
+    height:450px;
+    width:90%;
+    padding:10px;
+    margin-left:10px;
+}
+
+    .print div 
+    {
+        width:100%;
+        clear:both;
+        margin-bottom:10px;
+
+    }
+
+    .print h4 {
+        float:left;
+        margin:10px;
+        margin-left:25%;
+    }
+
+    .print p {
+
+        float:left;
+        margin:10px;
+    }
+
+table {
+
+    width:98%;
+    text-align:center;
+    margin:10px;
+}
+
+    table tr td{
+        padding:10px;
+
+    }
+
+.topic {
+
+    margin:10px;
+    color:#273746;
+}
+.tval {
+    color:maroon;
+}
+
+.delbtn
+{
+     background-color:#FF5733;
+     color:#fff; 
+     border-radius:10px; 
+     padding:10px;
+     border:0;
+     cursor:pointer;
+}
+
+.printform
+{
+    border:1px solid #000;
+    border-radius:10px;
+    padding:30px;
+    height:auto;
+    width:87%;
+    display:none;
+}
+.printform span
+{
+    background-color:#a3e4d7;
+    color:#000;
+    font-weight:bold;
+    padding:10px;
+    display:block;
+
+}
+.printform p
+{
+    margin-left:15px;
+    font-size:18px;
+}
+
+    .printform .print {
+
+    }
+
